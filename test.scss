@@ -1,0 +1,21 @@
+$primary-color: #00FF00; // set your primary color
+$glow-color: #00FF00; // set the color for the glow effect
+$glow-size: 20px; // set the size of the glow effect
+
+body {
+  background-color: #111;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: $primary-color;
+  text-shadow: 0 0 $glow-size $glow-color;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: $primary-color;
+  text-shadow: 0 0 $glow-size $glow-color;
+}
